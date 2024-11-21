@@ -32,7 +32,7 @@ deno run -A main.ts 123456789 123456789 10.189.1.3
 将仓库克隆到本地
 
 ```bash
-git clone -b deno https://github.com/Lilinzta/Auto-Giwifi
+git clone https://github.com/Lilinzta/auto_giwifi_deno
 ```
 
 运行脚本，将自动下载依赖
