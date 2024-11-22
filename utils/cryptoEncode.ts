@@ -1,5 +1,5 @@
-import { Aes } from "https://deno.land/x/crypto/aes.ts";
-import { Cbc, Padding } from "https://deno.land/x/crypto/block-modes.ts";
+import { Aes } from "https://deno.land/x/crypto@v0.10.1/aes.ts";
+import { Cbc, Padding } from "https://deno.land/x/crypto@v0.10.1/block-modes.ts";
 
 export function cryptoEncode(
   originData: string,
